@@ -1,0 +1,407 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+/*....header...*/
+.header
+{
+    position: fixed;
+    display: flex;
+    height:55px;
+    width:100%;
+    background:#fff;
+    z-index: 99;
+    padding:0 30px;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.07);
+    box-sizing: border-box;
+}
+
+.header img
+{
+  height: 100%;
+  width: auto;
+}
+.header  a {
+    
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size:1.1rem;
+    color: rgb(10, 3, 3);
+    size: 1.5rem;
+    text-decoration: none;
+}
+
+.header a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+ .header a:hover {
+    color: rgb(133, 133, 182);
+    border-bottom: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+} 
+/*Section Classes*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+section:nth-child(2n) {
+    background-color: #9e9b9b29;
+}
+
+section:nth-child(2n + 1) {
+    background-color: white;
+}
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.section-heading span {
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+
+
+/*About Section*/
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+    top:65px;
+    margin-bottom: 30px;
+} 
+#about img
+{
+    height:450px;
+}
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+#about-para p a
+{
+    text-decoration: none;
+    color: teal;
+    font-size: 1.3rem;
+}
+#about-para p span
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: teal;
+}
+/*Blog Section*/
+
+.blog
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.blog1
+{
+  width: 35%;
+  margin:20px 3% 20px 0px;
+}
+#blog-template
+{
+    background-image: url("https://ninjasfiles.s3.amazonaws.com/0000000000001177.png");
+    height: 250px;
+    width:100%;
+    display: inline-flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: 12px 12px 14px 0 rgba(0,0,0,.25);
+    background-size: cover;
+    justify-content: center;
+    padding: 20px 27px;
+    cursor: pointer;
+}
+.blog-heading
+{
+  font-size: 25px;
+  letter-spacing: 1px;
+  top: 100px;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 24px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+#blog-template a
+{
+    text-decoration: none;   
+}
+#blog-template p
+{
+    font-size: 16px;
+    letter-spacing: .5px;
+    top:160px;
+    color:#fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: .9;
+    margin:0px;
+    padding-top: 20px;
+}
+/* Mentor */
+#mentor-container
+{
+    display: flex;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mentor-template
+{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin:20px 3% 20px ;
+    /* min-width: 275px; */
+}
+.mentor-card-conatiner
+{
+    position: relative;
+    width: 315px;
+}
+.member
+{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 7px 10px 0 rgba(0,0,0,.07);
+}
+#member-image
+{
+    height: 315px;
+    width:315px;
+    border: none;
+    object-fit: cover;
+    cursor:pointer;
+}
+.name-container
+{
+    padding: 12px 18px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.name{
+  padding: 2px;
+  font-size: 18px;
+  letter-spacing: .2px;
+  font-family: SF-Bold;
+  color: #292929;
+}
+.description
+{
+    color: #f36;
+    font-size: 14px;
+    letter-spacing: .4px;
+    padding: 2px;
+}
+
+/*gallery*/
+#gallery-container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-container
+{
+    flex: 1;
+    height: 280px;
+    margin-left: 10px;
+    width: 100%;
+}
+.image-container img:hover
+{
+  transform: scale(1.5);
+}
+#gallery-button
+{
+    border-radius: 5px;
+    color: seagreen;
+    padding: 2px;
+    box-shadow: 0 7px 10px 0 rgba(0,0,0,.07);
+    font-family: sans-serif;
+
+}
+/* Contact Form */
+
+#contact {
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    color: white;
+    padding-bottom: 40px;
+}
+
+#contact h1,
+#contact h1 span {
+    color: white;
+}
+
+#contact-form {
+    margin-left: 20%;
+}
+
+#contact-container {
+    display: flex;
+}
+
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+}
+
+#my-details-container h3 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+#contact-form-container {
+    width: 50%;
+}
+
+#my-details-container p {
+    color: #d9dcdd;
+    font-size: 0.9rem;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+    font-size: 1rem;
+}
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+}
+
+.my-details-info-container i {
+    color: white;
+}
+
+.my-details-icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+
+
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+
+#contact .social-icons li a i {
+    font-size: 1.2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+
+/* Common Margin Classes */
+
+.m0 {
+    margin: 0;
+}
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+.mb50px {
+    margin-bottom: 50px;
+}
+
+
+
+/*common color classes */
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
+
+
+
+
