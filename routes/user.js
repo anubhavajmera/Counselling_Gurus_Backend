@@ -1,6 +1,6 @@
 const express=require('express');
 const userController=require('../controllers/user_controller');
 const router=express.Router();
-router.use('/users',require('./user'));
-router.get('/',userController.home);
+router.post('/create/web',userController.create);
+router.get('/signup/web',userController.signup);
 module.exports=router;
