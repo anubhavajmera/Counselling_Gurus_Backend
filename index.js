@@ -4,11 +4,12 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const morgan = require('morgan');
 const app = express();
-const port = 3008;
+const port = 3060;
 const path=require('path');
 
 var mongoDB = 'mongodb://localhost/my_database';
 
+mongoose.Promise = global.Promise;
 //Set up default mongoose connection
 mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true, userCreateIndex: true });
 
@@ -31,11 +32,12 @@ var db = mongoose.connection;
 //Bind connection to error event (to get notification of connection errors)
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
-app.listen(port,function(err)
+app.listen(port, function(err)
 {
     if(err)
     {
         console.log(`error in running the server: ${err}`);
     }
    console.log(`server is running on the port:${port}`);
+
 });

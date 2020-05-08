@@ -9,10 +9,10 @@ module.exports.home = function(req,res)
 
 module.exports.create = function(req,res)
 {
-    return res.render('creste');
+    return res.render('create');
 }
 
-module.exports.signup = function(req,res)
+module.exports.postsignupapp = function(req,res)
 {
     console.log(req.body);
     User.find({ email: req.body.email })
@@ -54,7 +54,7 @@ module.exports.signup = function(req,res)
     });
 }
 
-module.exports.login = function(req, res)
+module.exports.postloginapp = function(req, res)
 {
     User.find({ email: req.body.email })
     .exec()
@@ -98,6 +98,31 @@ module.exports.login = function(req, res)
         }
     }).catch(err => {
         console.log(err);
+        res.status(500).json({
+            error: err
+        });
+    });
+}
+
+module.exports.getuserdataapp = (req, res) =>
+{
+    console.log(req.params.email);
+    User.find({ email: req.params.email })
+    .then(user => {
+        console.log(user.toString());
+        if(user.length <= 0){
+            res.status(401).json({
+                message: "User not found"
+            });
+        }else{
+            return res.json({
+                email: user[0].email,
+                name: user[0].name,
+                contact: user[0].contact
+            });
+        }
+    })
+    .catch(err => {
         res.status(500).json({
             error: err
         });
