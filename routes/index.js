@@ -42,6 +42,10 @@ router.get('/fetch', (req, res) => {
   });
 });
 
+router.use('/users',require('./user'));
+router.use('/contact',require('./contact'));
+router.get('/',userController.home);
+
 router.get('/getuserdataapp/:email', userController.getuserdataapp);
 
 router.post('/create', userController.create);
@@ -53,5 +57,3 @@ router.post('/postloginapp', userController.postloginapp);
 router.get('/delete', userController.delete);
 
 module.exports = router;
-
-
