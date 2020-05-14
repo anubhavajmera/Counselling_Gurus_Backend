@@ -1,16 +1,13 @@
 const bcrypt = require('bcrypt');
-const User = require('../models/user');
+const User = require('../models/user/user');
 const jwt = require('jsonwebtoken');
+const News = require('../models/user/news');
+const TrendingNews = require('../models/user/trendingNews');
 
-module.exports.home = function(req,res)
-{
-    return res.render('home');
-}
-
-module.exports.create = function(req,res)
-{
-    return res.render('create');
-}
+const csv = require('fast-csv');
+var fs = require('fs');
+const parse = require('csv-parse');
+const IIT = require('../models/iit');
 
 module.exports.postsignupapp = function(req,res)
 {
@@ -144,5 +141,86 @@ module.exports.delete = function(req,res)
             error: err
         });
     });
-
 }
+
+module.exports.getnews = (req, res) => {
+    News.find()
+    .then(news => {
+        res.status(200).json({
+            count: news.length,
+            item: news.map(doc => {
+                return {
+                    heading: doc.heading,
+                    subheading: doc.subheading
+                };
+            }),
+        });
+    })
+    .catch(err => {
+        console.log(err);
+        res.status(500).json({
+            error: err
+        });
+    });
+}
+
+module.exports.gettrendingnews = (req, res) => {
+    TrendingNews.find()
+    .then(trendingnews => {
+        res.status(200).json({
+            count: trendingnews.length,
+            item: trendingnews.map(doc => {
+                return {
+                    heading: doc.heading,
+                    subheading: doc.subheading
+                };
+            }),
+        });
+    })
+    .catch(err => {
+        console.log(err);
+        res.status(500).json({
+            error: err
+        });
+    });
+}
+
+// var stream = fs.createReadStream("iit.csv").pipe(parse({ from_line: 2 }));
+// router.get('/go', (req, res) => {
+//     var myData = [];
+//     var csvStream = csv.parse().on('data', (data) => {
+//         myData.push({
+//             branch: data[0],
+//             opening: data[1],
+//             closing: data[2]
+//         });
+//     });
+//         IIT.insertMany(myData).then(doc => {
+//             res.json({
+//                 data: doc
+//             });
+//         });
+//         stream.pipe(csvStream);
+//         res.json({
+//             success: "Data imported",
+//         });
+// });
+
+module.exports.rankpredictor = (req, res) => {
+    IIT.find({ opening: { $gt: 400, $type: "string" } }, (err, doc) => {
+        if(err){
+            res.json({
+                error: err
+            });
+        }else{
+            res.json({
+                success: "Updated",
+                data: doc
+            });
+        }
+      });
+}
+
+
+
+
