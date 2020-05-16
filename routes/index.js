@@ -3,5 +3,6 @@ const userController=require('../controllers/user_controller');
 const router=express.Router();
 router.use('/users',require('./user'));
 router.use('/contact',require('./contact'));
+router.use('/payment',require('./payment'));
 router.get('/',userController.home);
 module.exports=router;
