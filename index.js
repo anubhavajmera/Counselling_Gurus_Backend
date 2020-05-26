@@ -4,8 +4,10 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const morgan = require('morgan');
 const app = express();
-const port = 3060;
+const port = 3061;
 const path=require('path');
+// const Nexmo = require('nexmo');
+// const socketio = require('socket.io');
 
 var mongoDB = 'mongodb://localhost/my_database';
 
@@ -23,6 +25,7 @@ app.use(express.urlencoded({extended: false}));
 app.use(express.static('assests'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
+app.use(express.static(__dirname));
 
 app.use('/', require('./routes/index'));
 
@@ -41,3 +44,12 @@ app.listen(port, function(err)
    console.log(`server is running on the port:${port}`);
 
 });
+
+// //connect to socket.io
+// const io = socketio(server);
+// io.on('connection',(socket) => {
+//     console.log('connected');
+//     io.on('disconnect', () => {
+//         console.log('Disconnected')
+//     });
+// });
