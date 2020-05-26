@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Payment Plans</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+	<style type="text/css">
+		.list-group-item{
+			border:0px;
+			text-align: left;
+			font-family: Manrope;
+		}
+		.list-group-item .fa-check{
+			color: #0dde30;
+			margin-right: 10px;
+		}
+		.panel-default .panel-heading{
+			background-color: #02c984;
+			color: white;
+			text-align: center;
+			font-weight: 550;
+			font-family: Source Sans Pro;
+		}
+		h3{
+			text-align: center;
+		}
+		#member img{
+			height:100px;
+			width:100px;
+			margin-right: auto;
+			margin-left: auto;
+			display: block;
+		}
+		.payment{
+			text-align: center;
+		}
+		.btn-default {
+		  font-family: Raleway-SemiBold;
+		  font-size: 15px;
+		  color: rgba(108, 88, 179, 0.75);
+		  letter-spacing: 1px;
+		  line-height: 15px;
+		  border: 2px solid rgba(108, 89, 179, 0.75);
+		  border-radius: 40px;
+		  background: transparent;
+		  transition: all 0.3s ease 0s;
+		}
+		.btn-default:hover {
+		  color: #FFF;
+		  background: rgba(108, 88, 179, 0.75);
+		  border: 2px solid rgba(108, 89, 179, 0.75);
+		}
+
+
+		.payment div{
+			margin-bottom: 10px;
+		}
+		.payment span{
+			font-size: 20px;
+			font-weight: bold;
+			margin-right: 5px; 
+		}
+		.payment i{
+			margin-right: 3px;
+		}
+
+		hr {
+		  border: 1px solid #8f8c8c;
+		  margin-bottom: 25px;
+		}
+
+		.panel:hover{
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		@media (min-width: 992px) {
+		  .col-md-4 > .panel > .panel-body {
+		    min-height: 440px;
+		  }
+		}
+
+	</style>
+
+
+</head>
+
+
+<body>
+	<!--Header-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">SPECIAL OFFER!!</div>
+					<div class="panel-body">
+						
+						<div id="member"><img src="silver.jpg"></div>
+						<hr>
+						<div class="payment">
+							<div><i class="fa fa-inr" aria-hidden="true"></i> <span>999/-</span><del >1499/-</del></div>
+							<a href="/payment/proceed/?amount=zero" class="btn btn-default btn-lg" id="payment">Select</a>
+						</div>
+						<hr>
+						<ul class="list-group">
+							<li class="list-group-item"><i class="fa fa-check"></i>JoSAA Couselling</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">SPECIAL OFFER!!</div>
+					<div class="panel-body">
+						
+						<div id="member"><img src="gold.jpg"></div>
+						<hr>
+						<div class="payment">
+							<div><i class="fa fa-inr" aria-hidden="true"></i> <span>1499/-</span><del >1999/-</del></div>
+							<a href="/payment/proceed/?amount=1999" class="btn btn-default btn-lg" id="payment2">Select</a>
+						</div>
+						<hr>
+						<ul class="list-group">
+							<li class="list-group-item"><i class="fa fa-check"></i>JoSAA Couselling</li>
+							<li class="list-group-item"><i class="fa fa-check"></i>One State Counselling</li>
+							<li class="list-group-item"><i class="fa fa-check"></i>Document Verification</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">SPECIAL OFFER!!</div>
+					<div class="panel-body">
+						
+						<div id="member"><img src="platinum.jpg"></div>
+						<hr>
+						<div class="payment">
+							<div><i class="fa fa-inr" aria-hidden="true"></i> <span>1999/-</span><del >2499/-</del></div>
+							<a href="/payment/proceed" class="btn btn-default btn-lg" id="payment3">Select</a>
+							<hr>
+							  <ul class="list-group">
+							  	<li class="list-group-item"><i class="fa fa-check"></i>JoSAA Couselling</li>
+							  	<li class="list-group-item"><i class="fa fa-check"></i>All State Counselling</li>
+							  	<li class="list-group-item"><i class="fa fa-check"></i>Document Verification</li>
+							  </ul>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="/js/payment.js"></script>
+ <script>
+	 document.getElementById('payment').onclick=function(e){
+		 e.preventDefault();
+		new paymentProcess('999');
+	 }
+	 document.getElementById('payment2').onclick=function(e){
+		 e.preventDefault();
+		new paymentProcess('1499');
+	 }
+	 document.getElementById('payment3').onclick=function(e){
+		e.preventDefault();
+		new paymentProcess('1999');
+	 }
+ </script>
+	<!--Footer-->
+
+</body>
+</html>
