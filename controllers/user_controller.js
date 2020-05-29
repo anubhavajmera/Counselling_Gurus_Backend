@@ -13,6 +13,7 @@ const csv = require('fast-csv');
 var fs = require('fs');
 const parse = require('csv-parse');
 const IIT = require('../models/iit');
+var json = require("../ranklistiit.json")
 
 //inint nexmo
 const nexmo = new Nexmo({
@@ -230,37 +231,36 @@ module.exports.rankpredictor = (req, res) => {
 
 module.exports.collegepredictor = (req, res) => {
 
-    res.writeHead(200, { 'Content-Type': 'application/json' });
-
-    var rank;
     var i = 0;
+    var rank = req.body.rank;
     var listofcollege = [];
 
-    (async () => {
-        var data = await csvtojson().fromFile('../Collegepredictorfinal.csv');
+    res.writeHead(200, { 'Content-Type': 'application/json' });
 
 
-        function gettop3colleges(rank) {
-            for (i; i < 245; i++) {
-                if (rank < data[i].ClosingRank) {
-                    listofcollege.push(data[i].College);
-                } else {
-                    null;
-                }
+    function gettop3colleges(rank) {
+        for (i; i < 245; i++) {
+            if (rank < json[i].ClosingRank) {
+                listofcollege.push(json[i].College);
+            } else {
+                null;
             }
         }
+    }
 
-        gettop3colleges(req.body.rank);
+    gettop3colleges(rank);
 
-        var collegeinjsonform = {
-            firstcollegepreference: listofcollege[0],
-            secondcollegepreference: listofcollege[1],
-            thirdcollegepreference: listofcollege[2],
-        };
+    var myobj = {
+        "name": "varun",
+        "college": "BITS PILANI PILANI CAMPUS",
+        "first college name": listofcollege[0],
+        "second college name": listofcollege[1],
+        "third college name": listofcollege[2]
 
-        res.end(JSON.stringify(collegeinjsonform));
+    };
 
-    })();
+    res.end(JSON.stringify(myobj));
+
 
 }
 
