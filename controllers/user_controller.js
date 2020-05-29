@@ -251,8 +251,6 @@ module.exports.collegepredictor = (req, res) => {
     gettop3colleges(rank);
 
     var myobj = {
-        "name": "varun",
-        "college": "BITS PILANI PILANI CAMPUS",
         "first college name": listofcollege[0],
         "second college name": listofcollege[1],
         "third college name": listofcollege[2]
