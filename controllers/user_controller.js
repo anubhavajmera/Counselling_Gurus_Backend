@@ -231,8 +231,9 @@ module.exports.rankpredictor = (req, res) => {
 
 module.exports.collegepredictor = (req, res) => {
 
+    console.log(req.params.rank)
+
     var i = 0;
-    var rank = req.body.rank;
     var listofcollege = [];
 
     res.writeHead(200, { 'Content-Type': 'application/json' });
@@ -248,12 +249,12 @@ module.exports.collegepredictor = (req, res) => {
         }
     }
 
-    gettop3colleges(rank);
+    gettop3colleges(req.params.rank);
 
     var myobj = {
-        "first college name": listofcollege[0],
-        "second college name": listofcollege[1],
-        "third college name": listofcollege[2]
+        "firstcollegename": listofcollege[0],
+        "secondcollegename": listofcollege[1],
+        "thirdcollegename": listofcollege[2]
 
     };
 
