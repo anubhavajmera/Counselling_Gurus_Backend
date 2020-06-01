@@ -41,7 +41,7 @@ router.get('/delete', userController.delete);
 router.post('/postsignupapp', userController.postsignupapp);
 router.post('/postloginapp', userController.postloginapp);
 router.get('/rankpredictor', userController.rankpredictor);
-router.get('/collegepredictor', userController.collegepredictor);
+router.get('/collegepredictor/:rank', userController.collegepredictor);
 router.post('/postquestion', upload.single('questionImage'), userController.postquestion);
 router.get('/getquestion', userController.getquestion);
 router.get('/deletequestion/:username', userController.deletequestion);
