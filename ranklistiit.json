@@ -1,0 +1,1227 @@
+[
+ {
+   "College": "IIT Bombay",
+   "Branch": "Aerospace Engineering",
+   "ClosingRank": 63
+ },
+ {
+   "College": "IIT Kanpur",
+   "Branch": "Aerospace Engineering",
+   "ClosingRank": 93
+ },
+ {
+   "College": "IIT Madras",
+   "Branch": "Aerospace Engineering",
+   "ClosingRank": 188
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Aerospace Engineering",
+   "ClosingRank": 192
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Aerospace Engineering(5 years)",
+   "ClosingRank": 217
+ },
+ {
+   "College": "IIT Madras",
+   "Branch": "Aerospace Engineering(B.TECH + M.TECH. (DUAL DEGREE))",
+   "ClosingRank": 283
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Agricultural and Food Engineering",
+   "ClosingRank": 296
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Agricultural and Food Engineering with M.Tech. in any of the listed specializations(5 years)",
+   "ClosingRank": 314
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Applied Geology(5 years)",
+   "ClosingRank": 378
+ },
+ {
+   "College": "ISM Dhanbad",
+   "Branch": "Applied Geology(5 years)",
+   "ClosingRank": 412
+ },
+ {
+   "College": "ISM Dhanbad",
+   "Branch": "Applied Geophysics(5 years)",
+   "ClosingRank": 441
+ },
+ {
+   "College": "IIT Roorkee",
+   "Branch": "Applied Mathematics(Integrated M.Sc.)",
+   "ClosingRank": 469
+ },
+ {
+   "College": "IIT Hyderabad",
+   "Branch": "Artificial Intelligence",
+   "ClosingRank": 572
+ },
+ {
+   "College": "IIT Mandi",
+   "Branch": "Bio Engineering",
+   "ClosingRank": 588
+ },
+ {
+   "College": "IIT Jodhpur",
+   "Branch": "Bio Engineering",
+   "ClosingRank": 616
+ },
+ {
+   "College": "IIT Roorkee",
+   "Branch": "Bio Technology",
+   "ClosingRank": 694
+ },
+ {
+   "College": "IIT Guwahati",
+   "Branch": "Bio Technology",
+   "ClosingRank": 697
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Biochemical Engineering with M.Tech. in Biochemical Engineering and Biotechnology(5 years)",
+   "ClosingRank": 722
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Bioengineering with M.Tech in Biomedical Technology(5 years)",
+   "ClosingRank": 796
+ },
+ {
+   "College": "IIT Madras",
+   "Branch": "Biological Engineering(B.TECH + M.TECH. (DUAL DEGREE))",
+   "ClosingRank": 802
+ },
+ {
+   "College": "IIT Kanpur",
+   "Branch": "Biological Sciences and Bioengineering",
+   "ClosingRank": 932
+ },
+ {
+   "College": "IIT Madras",
+   "Branch": "Biological Sciences(B.Sc. + M.Sc. (DUAL DEGREE))",
+   "ClosingRank": 970
+ },
+ {
+   "College": "IIT Delhi",
+   "Branch": "Biotechnology and Biochemical Engineering",
+   "ClosingRank": 994
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Biotechnology and Biochemical Engineering",
+   "ClosingRank": 999
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Biotechnology and Biochemical Engineering(5 years)",
+   "ClosingRank": 1059
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Ceramic Engineering",
+   "ClosingRank": 1067
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Ceramic Engineering(5 years)",
+   "ClosingRank": 1085
+ },
+ {
+   "College": "IIT Bombay",
+   "Branch": "Chemical Engineering",
+   "ClosingRank": 1198
+ },
+ {
+   "College": "IIT Delhi",
+   "Branch": "Chemical Engineering",
+   "ClosingRank": 1222
+ },
+ {
+   "College": "IIT Madras",
+   "Branch": "Chemical Engineering",
+   "ClosingRank": 1290
+ },
+ {
+   "College": "IIT Kanpur",
+   "Branch": "Chemical Engineering",
+   "ClosingRank": 1294
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Chemical Engineering",
+   "ClosingRank": 1385
+ },
+ {
+   "College": "IIT Roorkee",
+   "Branch": "Chemical Engineering",
+   "ClosingRank": 1417
+ },
+ {
+   "College": "IIT Guwahati",
+   "Branch": "Chemical Engineering",
+   "ClosingRank": 1436
+ },
+ {
+   "College": "IIT Hyderabad",
+   "Branch": "Chemical Engineering",
+   "ClosingRank": 1503
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Chemical Engineering",
+   "ClosingRank": 1548
+ },
+ {
+   "College": "IIT Gandhinagar",
+   "Branch": "Chemical Engineering",
+   "ClosingRank": 1631
+ },
+ {
+   "College": "IIT Ropar",
+   "Branch": "Chemical Engineering",
+   "ClosingRank": 1729
+ },
+ {
+   "College": "ISM Dhanbad",
+   "Branch": "Chemical Engineering",
+   "ClosingRank": 1739
+ },
+ {
+   "College": "IIT Patna",
+   "Branch": "Chemical Engineering",
+   "ClosingRank": 1856
+ },
+ {
+   "College": "IIT Tirupati",
+   "Branch": "Chemical Engineering",
+   "ClosingRank": 1868
+ },
+ {
+   "College": "IIT Jammu",
+   "Branch": "Chemical Engineering",
+   "ClosingRank": 1924
+ },
+ {
+   "College": "IIT Delhi",
+   "Branch": "Chemical Engineering(5 years)",
+   "ClosingRank": 1925
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Chemical Engineering(5 years)",
+   "ClosingRank": 1940
+ },
+ {
+   "College": "IIT Guwahati",
+   "Branch": "Chemical Science and Technology",
+   "ClosingRank": 2028
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Chemistry(5 years)",
+   "ClosingRank": 2032
+ },
+ {
+   "College": "IIT Bombay",
+   "Branch": "Chemistry(B.Sc. 4 year)",
+   "ClosingRank": 2049
+ },
+ {
+   "College": "IIT Kanpur",
+   "Branch": "Chemistry(B.Sc. 4 year)",
+   "ClosingRank": 2082
+ },
+ {
+   "College": "IIT Roorkee",
+   "Branch": "Chemistry(Integrated M.Sc.)",
+   "ClosingRank": 2088
+ },
+ {
+   "College": "IIT Bombay",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 2108
+ },
+ {
+   "College": "IIT Delhi",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 2238
+ },
+ {
+   "College": "IIT Kanpur",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 2259
+ },
+ {
+   "College": "IIT Madras",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 2298
+ },
+ {
+   "College": "IIT Roorkee",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 2376
+ },
+ {
+   "College": "IIT Hyderabad",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 2463
+ },
+ {
+   "College": "IIT Guwahati",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 2569
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 2606
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 2617
+ },
+ {
+   "College": "IIT Indore",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 2693
+ },
+ {
+   "College": "IIT Gandhinagar",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 2694
+ },
+ {
+   "College": "ISM Dhanbad",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 2733
+ },
+ {
+   "College": "IIT Bhubaneswar",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 2748
+ },
+ {
+   "College": "IIT Mandi",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 2849
+ },
+ {
+   "College": "IIT Ropar",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 2856
+ },
+ {
+   "College": "IIT Patna",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 3005
+ },
+ {
+   "College": "IIT Palakkad",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 3026
+ },
+ {
+   "College": "IIT Tirupati",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 3110
+ },
+ {
+   "College": "IIT Jammu",
+   "Branch": "Civil Engineering",
+   "ClosingRank": 3154
+ },
+ {
+   "College": "IIT Bhubaneswar",
+   "Branch": "Civil Engineering and M. Tech. in Structural Engineering(5 years)",
+   "ClosingRank": 3253
+ },
+ {
+   "College": "IIT Bhubaneswar",
+   "Branch": "Civil Engineering and M.Tech in Transportation Engineering(5 years)",
+   "ClosingRank": 3293
+ },
+ {
+   "College": "IIT Bhubaneswar",
+   "Branch": "Civil Engineering and M.Tech. in Environmental Engineering(5 years)",
+   "ClosingRank": 3299
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Civil Engineering with any of the listed specialization(5 years)",
+   "ClosingRank": 3308
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Civil Engineering(5 years)",
+   "ClosingRank": 3363
+ },
+ {
+   "College": "IIT Bombay",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3417
+ },
+ {
+   "College": "IIT Delhi",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3429
+ },
+ {
+   "College": "IIT Madras",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3430
+ },
+ {
+   "College": "IIT Kanpur",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3491
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3497
+ },
+ {
+   "College": "IIT Roorkee",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3501
+ },
+ {
+   "College": "IIT Guwahati",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3516
+ },
+ {
+   "College": "IIT Hyderabad",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3551
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3609
+ },
+ {
+   "College": "IIT Indore",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3612
+ },
+ {
+   "College": "IIT Gandhinagar",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3620
+ },
+ {
+   "College": "IIT Ropar",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3635
+ },
+ {
+   "College": "IIT Bhubaneswar",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3650
+ },
+ {
+   "College": "IIT Patna",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3691
+ },
+ {
+   "College": "IIT Mandi",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3773
+ },
+ {
+   "College": "ISM Dhanbad",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3785
+ },
+ {
+   "College": "IIT Jodhpur",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3822
+ },
+ {
+   "College": "IIT Tirupati",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 3865
+ },
+ {
+   "College": "IIT Goa",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 4000
+ },
+ {
+   "College": "IIT Palakkad",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 4010
+ },
+ {
+   "College": "IIT Dharwad",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 4020
+ },
+ {
+   "College": "IIT Bhilai",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 4069
+ },
+ {
+   "College": "IIT Jammu",
+   "Branch": "Computer Science and Engineering",
+   "ClosingRank": 4242
+ },
+ {
+   "College": "IIT Delhi",
+   "Branch": "Computer Science and Engineering(5 years)",
+   "ClosingRank": 4268
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Computer Science and Engineering(5 years)",
+   "ClosingRank": 4384
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Computer Science and Engineering(5 years)",
+   "ClosingRank": 4403
+ },
+ {
+   "College": "IIT Bhubaneswar",
+   "Branch": "Computer Science and Engineering(5 years)",
+   "ClosingRank": 4440
+ },
+ {
+   "College": "IIT Mandi",
+   "Branch": "Data Science and Engineering",
+   "ClosingRank": 4476
+ },
+ {
+   "College": "IIT Kanpur",
+   "Branch": "Earth Sciences(B.Sc. 4 year)",
+   "ClosingRank": 4656
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Economics(5 years)",
+   "ClosingRank": 4681
+ },
+ {
+   "College": "IIT Bombay",
+   "Branch": "Economics(B.Sc. 4 year)",
+   "ClosingRank": 4689
+ },
+ {
+   "College": "IIT Kanpur",
+   "Branch": "Economics(B.Sc. 4 year)",
+   "ClosingRank": 4713
+ },
+ {
+   "College": "IIT Patna",
+   "Branch": "Electrical and Electronics Engineering",
+   "ClosingRank": 4839
+ },
+ {
+   "College": "IIT Bombay",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 4869
+ },
+ {
+   "College": "IIT Delhi",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 4886
+ },
+ {
+   "College": "IIT Madras",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 4915
+ },
+ {
+   "College": "IIT Kanpur",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 4990
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5055
+ },
+ {
+   "College": "IIT Roorkee",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5057
+ },
+ {
+   "College": "IIT Hyderabad",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5067
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5106
+ },
+ {
+   "College": "IIT Gandhinagar",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5112
+ },
+ {
+   "College": "IIT Indore",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5146
+ },
+ {
+   "College": "IIT Bhubaneswar",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5177
+ },
+ {
+   "College": "IIT Ropar",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5188
+ },
+ {
+   "College": "IIT Mandi",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5235
+ },
+ {
+   "College": "ISM Dhanbad",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5261
+ },
+ {
+   "College": "IIT Jodhpur",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5279
+ },
+ {
+   "College": "IIT Tirupati",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5284
+ },
+ {
+   "College": "IIT Goa",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5310
+ },
+ {
+   "College": "IIT Dharwad",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5366
+ },
+ {
+   "College": "IIT Palakkad",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5454
+ },
+ {
+   "College": "IIT Bhilai",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5526
+ },
+ {
+   "College": "IIT Jammu",
+   "Branch": "Electrical Engineering",
+   "ClosingRank": 5640
+ },
+ {
+   "College": "IIT Delhi",
+   "Branch": "Electrical Engineering (Power and Automation)",
+   "ClosingRank": 5697
+ },
+ {
+   "College": "IIT Bhubaneswar",
+   "Branch": "Electrical Engineering and M.Tech Power Electronics and Drives(5 years)",
+   "ClosingRank": 5780
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Electrical Engineering with M.Tech. in any of the listed specializations(5 years)",
+   "ClosingRank": 5873
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Electrical Engineering with M.Tech. in Power Electronics(5 years)",
+   "ClosingRank": 5907
+ },
+ {
+   "College": "IIT Bombay",
+   "Branch": "Electrical Engineering(5 years)",
+   "ClosingRank": 5923
+ },
+ {
+   "College": "IIT Roorkee",
+   "Branch": "Electronics and Communication Engineering",
+   "ClosingRank": 5940
+ },
+ {
+   "College": "IIT Guwahati",
+   "Branch": "Electronics and Communication Engineering",
+   "ClosingRank": 5995
+ },
+ {
+   "College": "IIT Bhubaneswar",
+   "Branch": "Electronics and Communication Engineering",
+   "ClosingRank": 6028
+ },
+ {
+   "College": "ISM Dhanbad",
+   "Branch": "Electronics and Communication Engineering",
+   "ClosingRank": 6124
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Electronics and Electrical Communication Engineering",
+   "ClosingRank": 6135
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Electronics and Electrical Communication Engineering with M.Tech. in any of the listed specializations(5 years)",
+   "ClosingRank": 6183
+ },
+ {
+   "College": "IIT Guwahati",
+   "Branch": "Electronics and Electrical Engineering",
+   "ClosingRank": 6292
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Electronics Engineering",
+   "ClosingRank": 6312
+ },
+ {
+   "College": "IIT Bombay",
+   "Branch": "Energy Engineering with M.Tech. in Energy Systems Engineering(5 years)",
+   "ClosingRank": 6357
+ },
+ {
+   "College": "IIT Madras",
+   "Branch": "Engineering Design(B.TECH + M.TECH. (DUAL DEGREE))",
+   "ClosingRank": 6421
+ },
+ {
+   "College": "IIT Bombay",
+   "Branch": "Engineering Physics",
+   "ClosingRank": 6487
+ },
+ {
+   "College": "IIT Madras",
+   "Branch": "Engineering Physics",
+   "ClosingRank": 6495
+ },
+ {
+   "College": "IIT Delhi",
+   "Branch": "Engineering Physics",
+   "ClosingRank": 6549
+ },
+ {
+   "College": "IIT Roorkee",
+   "Branch": "Engineering Physics",
+   "ClosingRank": 6607
+ },
+ {
+   "College": "IIT Hyderabad",
+   "Branch": "Engineering Physics",
+   "ClosingRank": 6618
+ },
+ {
+   "College": "IIT Guwahati",
+   "Branch": "Engineering Physics",
+   "ClosingRank": 6671
+ },
+ {
+   "College": "ISM Dhanbad",
+   "Branch": "Engineering Physics",
+   "ClosingRank": 6740
+ },
+ {
+   "College": "IIT Mandi",
+   "Branch": "Engineering Physics",
+   "ClosingRank": 6833
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Engineering Physics(5 years)",
+   "ClosingRank": 6838
+ },
+ {
+   "College": "IIT Hyderabad",
+   "Branch": "Engineering Science",
+   "ClosingRank": 6966
+ },
+ {
+   "College": "ISM Dhanbad",
+   "Branch": "Environmental Engineering",
+   "ClosingRank": 6984
+ },
+ {
+   "College": "IIT Bombay",
+   "Branch": "Environmental Science and Engineering(5 years)",
+   "ClosingRank": 6998
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Exploration Geophysics(5 years)",
+   "ClosingRank": 7028
+ },
+ {
+   "College": "IIT Roorkee",
+   "Branch": "Geological Technology(Integrated M.Tech)",
+   "ClosingRank": 7048
+ },
+ {
+   "College": "IIT Roorkee",
+   "Branch": "Geophysical Technology(Integrated M.Tech)",
+   "ClosingRank": 7112
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Industrial and Systems Engineering",
+   "ClosingRank": 7160
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Industrial and Systems Engineering with M.Tech. in Industrial and Systems Engineering and Management(5 years)",
+   "ClosingRank": 7222
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Industrial Chemistry(5 years)",
+   "ClosingRank": 7250
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Instrumentation Engineering",
+   "ClosingRank": 7344
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Manufacturing Science and Engineering",
+   "ClosingRank": 7418
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Manufacturing Science and Engineering with M.Tech. in Industrial and Systems Engineering and Management(5 years)",
+   "ClosingRank": 7566
+ },
+ {
+   "College": "IIT Kanpur",
+   "Branch": "Materials Science and Engineering",
+   "ClosingRank": 7685
+ },
+ {
+   "College": "IIT Gandhinagar",
+   "Branch": "Materials Science and Engineering",
+   "ClosingRank": 7714
+ },
+ {
+   "College": "IIT Jammu",
+   "Branch": "Materials Science and Engineering",
+   "ClosingRank": 7729
+ },
+ {
+   "College": "IIT Hyderabad",
+   "Branch": "Materials Science and Metallurgical Engineering",
+   "ClosingRank": 7783
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Materials Science and Technology(5 years)",
+   "ClosingRank": 7872
+ },
+ {
+   "College": "IIT Delhi",
+   "Branch": "Mathematics and Computing",
+   "ClosingRank": 7925
+ },
+ {
+   "College": "IIT Hyderabad",
+   "Branch": "Mathematics and Computing",
+   "ClosingRank": 7971
+ },
+ {
+   "College": "IIT Guwahati",
+   "Branch": "Mathematics and Computing",
+   "ClosingRank": 8004
+ },
+ {
+   "College": "IIT Ropar",
+   "Branch": "Mathematics and Computing",
+   "ClosingRank": 8007
+ },
+ {
+   "College": "IIT Goa",
+   "Branch": "Mathematics and Computing",
+   "ClosingRank": 8043
+ },
+ {
+   "College": "IIT Delhi",
+   "Branch": "Mathematics and Computing(5 years)",
+   "ClosingRank": 8104
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Mathematics and Computing(5 years)",
+   "ClosingRank": 8122
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Mathematics and Computing(5 years)",
+   "ClosingRank": 8145
+ },
+ {
+   "College": "ISM Dhanbad",
+   "Branch": "Mathematics and Computing(5 years)",
+   "ClosingRank": 8169
+ },
+ {
+   "College": "IIT Kanpur",
+   "Branch": "Mathematics and Scientific Computing(B.Sc. 4 year)",
+   "ClosingRank": 8312
+ },
+ {
+   "College": "IIT Bombay",
+   "Branch": "Mathematics(B.Sc. 4 year)",
+   "ClosingRank": 8332
+ },
+ {
+   "College": "IIT Bombay",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 8365
+ },
+ {
+   "College": "IIT Delhi",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 8424
+ },
+ {
+   "College": "IIT Madras",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 8439
+ },
+ {
+   "College": "IIT Kanpur",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 8484
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 8497
+ },
+ {
+   "College": "IIT Roorkee",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 8546
+ },
+ {
+   "College": "IIT Guwahati",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 8643
+ },
+ {
+   "College": "IIT Hyderabad",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 8692
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 8696
+ },
+ {
+   "College": "IIT Gandhinagar",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 8743
+ },
+ {
+   "College": "IIT Indore",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 8895
+ },
+ {
+   "College": "IIT Bhubaneswar",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 8916
+ },
+ {
+   "College": "ISM Dhanbad",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 9139
+ },
+ {
+   "College": "IIT Ropar",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 9179
+ },
+ {
+   "College": "IIT Mandi",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 9269
+ },
+ {
+   "College": "IIT Jodhpur",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 9291
+ },
+ {
+   "College": "IIT Patna",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 9388
+ },
+ {
+   "College": "IIT Ropar",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 9473
+ },
+ {
+   "College": "IIT Tirupati",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 9563
+ },
+ {
+   "College": "IIT Goa",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 9655
+ },
+ {
+   "College": "IIT Bhilai",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 9757
+ },
+ {
+   "College": "IIT Palakkad",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 9795
+ },
+ {
+   "College": "IIT Dharwad",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 9826
+ },
+ {
+   "College": "IIT Jammu",
+   "Branch": "Mechanical Engineering",
+   "ClosingRank": 9835
+ },
+ {
+   "College": "IIT Bhubaneswar",
+   "Branch": "Mechanical Engineering and M. Tech. in Mechanical System Design(5 years)",
+   "ClosingRank": 9885
+ },
+ {
+   "College": "IIT Bhubaneswar",
+   "Branch": "Mechanical Engineering and M. Tech. in Thermal Science & Engineering(5 years)",
+   "ClosingRank": 9973
+ },
+ {
+   "College": "IIT Bombay",
+   "Branch": "Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing(5 years)",
+   "ClosingRank": 10163
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Mechanical Engineering with M.Tech. in any of the listed specializations(5 years)",
+   "ClosingRank": 10212
+ },
+ {
+   "College": "IIT Bhubaneswar",
+   "Branch": "Mechanical Engineering with M.Tech. in Manufacturing Engineering(5 years)",
+   "ClosingRank": 10278
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Mechanical Engineering(5 years)",
+   "ClosingRank": 10314
+ },
+ {
+   "College": "IIT Madras",
+   "Branch": "Metallurgical and Materials Engineering",
+   "ClosingRank": 10341
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Metallurgical and Materials Engineering",
+   "ClosingRank": 10404
+ },
+ {
+   "College": "IIT Roorkee",
+   "Branch": "Metallurgical and Materials Engineering",
+   "ClosingRank": 10448
+ },
+ {
+   "College": "IIT Bhubaneswar",
+   "Branch": "Metallurgical and Materials Engineering",
+   "ClosingRank": 10497
+ },
+ {
+   "College": "IIT Ropar",
+   "Branch": "Metallurgical and Materials Engineering",
+   "ClosingRank": 10541
+ },
+ {
+   "College": "IIT Patna",
+   "Branch": "Metallurgical and Materials Engineering",
+   "ClosingRank": 10636
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Metallurgical and Materials Engineering(5 years)",
+   "ClosingRank": 10645
+ },
+ {
+   "College": "IIT Bhubaneswar",
+   "Branch": "Metallurgical and Materials Engineering(5 years)",
+   "ClosingRank": 10659
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Metallurgical Engineering",
+   "ClosingRank": 10804
+ },
+ {
+   "College": "IIT Bombay",
+   "Branch": "Metallurgical Engineering and Materials Science",
+   "ClosingRank": 10874
+ },
+ {
+   "College": "IIT Indore",
+   "Branch": "Metallurgical Engineering and Materials Science",
+   "ClosingRank": 10981
+ },
+ {
+   "College": "IIT Bombay",
+   "Branch": "Metallurgical Engineering and Materials Science(5 years)",
+   "ClosingRank": 10982
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Metallurgical Engineering(5 years)",
+   "ClosingRank": 11021
+ },
+ {
+   "College": "ISM Dhanbad",
+   "Branch": "Mineral Engineering",
+   "ClosingRank": 11363
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Mining Engineering",
+   "ClosingRank": 11392
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Mining Engineering",
+   "ClosingRank": 11394
+ },
+ {
+   "College": "ISM Dhanbad",
+   "Branch": "Mining Engineering",
+   "ClosingRank": 11424
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Mining Engineering(5 years)",
+   "ClosingRank": 11443
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Mining Engineering(5 years)",
+   "ClosingRank": 11454
+ },
+ {
+   "College": "ISM Dhanbad",
+   "Branch": "Mining Machinery Engineering",
+   "ClosingRank": 11546
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Mining Safety Engineering(5 years)",
+   "ClosingRank": 11646
+ },
+ {
+   "College": "IIT Madras",
+   "Branch": "Naval Architecture and Ocean Engineering",
+   "ClosingRank": 11691
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Ocean Engineering and Naval Architecture",
+   "ClosingRank": 11814
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Ocean Engineering and Naval Architecture(5 years)",
+   "ClosingRank": 11947
+ },
+ {
+   "College": "ISM Dhanbad",
+   "Branch": "Petroleum Engineering",
+   "ClosingRank": 12048
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Pharmaceutical Engineering & Technology",
+   "ClosingRank": 12057
+ },
+ {
+   "College": "IIT BHU",
+   "Branch": "Pharmaceutical Engineering & Technology(5 years)",
+   "ClosingRank": 12094
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Physics(5 years)",
+   "ClosingRank": 12125
+ },
+ {
+   "College": "IIT Madras",
+   "Branch": "Physics(B.Sc. + M.Sc. (DUAL DEGREE))",
+   "ClosingRank": 12148
+ },
+ {
+   "College": "IIT Kanpur",
+   "Branch": "Physics(B.Sc. 4 year)",
+   "ClosingRank": 12267
+ },
+ {
+   "College": "IIT Roorkee",
+   "Branch": "Physics(Integrated M.Sc.)",
+   "ClosingRank": 12361
+ },
+ {
+   "College": "IIT Roorkee",
+   "Branch": "Polymer Science and Engineering",
+   "ClosingRank": 12391
+ },
+ {
+   "College": "IIT Delhi",
+   "Branch": "Production and Industrial Engineering",
+   "ClosingRank": 12420
+ },
+ {
+   "College": "IIT Roorkee",
+   "Branch": "Production and Industrial Engineering",
+   "ClosingRank": 12522
+ },
+ {
+   "College": "IIT Kharagpur",
+   "Branch": "Quality Engineering Design and Manufacturing(5 years)",
+   "ClosingRank": 12660
+ },
+ {
+   "College": "IIT Delhi",
+   "Branch": "Textile Technology",
+   "ClosingRank": 12931
+ }
+]
