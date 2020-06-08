@@ -18,17 +18,11 @@ mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true, use
 // const expressLayouts = require('express-ejs-layouts');
 // app.use(expressLayouts);
 app.set('view engine', 'ejs');
-<<<<<<< HEAD
-app.set('views',path.join(__dirname,'views'));
-app.use(express.urlencoded({extended:true}));
-=======
 app.set('views', path.join(__dirname,'views'));
 
 app.use(morgan("dev"));
 app.use(express.urlencoded({extended: false}));
->>>>>>> 4d3598ec0d613c236172c051cbe2ba03c1dd4170
 app.use(express.static('assests'));
-app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 app.use(express.static(__dirname));
 

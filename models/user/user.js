@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+const Questions = require('./question')
 
 const userSchema = new mongoose.Schema(
     {
@@ -19,6 +20,30 @@ const userSchema = new mongoose.Schema(
         password:{
             type: String,
             required: true,
+        },
+        plan0:{
+            type: Boolean,
+            default: true
+        },
+        plan1:{
+            type: Boolean,
+            default: false
+        },
+        plan2:{
+            type: Boolean,
+            default: false
+        },
+        plan3:{
+            type: Boolean,
+            default: false
+        },
+        chat:{
+            type: Questions,
+            default: Questions({
+                username: name,
+                questionTitle: "",
+                question: ""
+            })
         }
     },{
         //The {timestamps: true} option creates a createdAt and updatedAt field on our models that contain timestamps which will get automatically updated when our model changes.

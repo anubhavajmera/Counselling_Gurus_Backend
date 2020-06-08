@@ -238,8 +238,6 @@ module.exports.collegepredictor = (req, res) => {
 
     (async () => {
         var data = await csvtojson().fromFile('../Collegepredictorfinal.csv');
-
-
         function gettop3colleges(rank) {
             for (i; i < 245; i++) {
                 if (rank < data[i].ClosingRank) {
