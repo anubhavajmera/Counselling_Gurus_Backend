@@ -6,6 +6,8 @@ const TrendingNews = require('../models/user/trendingNews');
 const Question = require('../models/user/question');
 
 const upload = require("../middleware/imageupload");
+var pdfupload = multer({dest:'pdfuploads/'});
+
 const Nexmo = require('nexmo');
 const socketio = require('socket.io');
 const csvtojson = require('csvtojson');
@@ -133,6 +135,15 @@ module.exports.getuserdataapp = (req, res) => {
                 error: err
             });
         });
+}
+
+module.exports.pdfupload = function(req , res){
+    try {
+        res.send(req.file);
+        console.log('file uploaded successfully: '+ req.file.originalname)
+      }catch(err) {
+        res.send(400);
+      }
 }
 
 module.exports.delete = function (req, res) {

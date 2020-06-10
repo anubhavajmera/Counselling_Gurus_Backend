@@ -3,7 +3,10 @@ const userController = require('../controllers/user_controller');
 const adminController = require('../controllers/admin_controller');
 const router = express.Router();
 const path = require('path');
+
 const multer = require('multer');
+var pdfupload = multer({dest:'pdfuploads/'});
+
 // const Nexmo = require('nexmo');
 // const socketio = require('socket.io');
 
@@ -42,6 +45,7 @@ router.post('/postsignupapp', userController.postsignupapp);
 router.post('/postloginapp', userController.postloginapp);
 router.get('/rankpredictor', userController.rankpredictor);
 router.get('/collegepredictor/:rank', userController.collegepredictor);
+router.post('/pdfupload' ,  pdfupload.single('profile'),userController.pdfupload);
 router.post('/postquestion', upload.single('questionImage'), userController.postquestion);
 router.get('/getquestion', userController.getquestion);
 router.get('/deletequestion/:username', userController.deletequestion);
